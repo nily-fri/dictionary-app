@@ -1,9 +1,16 @@
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">hello world</header>
+      <div className="container">
+        <header className="App-header"></header>
+      </div>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="App-footer">created by Nily Friedman</footer>
     </div>
   );
 }
