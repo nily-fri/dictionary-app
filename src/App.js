@@ -8,9 +8,12 @@ function App() {
         <header className="App-header"></header>
       </div>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
-      <footer className="App-footer">created by Nily Friedman</footer>
+      <footer className="App-footer">
+        created by{" "}
+        <a href="https://github.com/nily-fri?tab=repositories">Nily Friedman</a>
+      </footer>
     </div>
   );
 }
